@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\obj\Smpl_UART0_HC05.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_nuc1xx.o"'
+### List of Objects: adding '".\obj\startup_nuc1xx.o"'
+### List of Objects: adding '".\obj\lcd_driver.o"'
+### List of Objects: adding '".\obj\ascii_table.o"'
+### List of Objects: adding '".\obj\smpl_uart0_hc05.o"'
+### List of Objects: adding '".\obj\drvsys.o"'
+### List of Objects: adding '".\obj\drvuart.o"'
+### List of Objects: adding '".\obj\drvgpio.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\core_cm0.o" ".\obj\system_nuc1xx.o" ".\obj\startup_nuc1xx.o" ".\obj\lcd_driver.o" ".\obj\ascii_table.o" ".\obj\smpl_uart0_hc05.o" ".\obj\drvsys.o" ".\obj\drvuart.o" ".\obj\drvgpio.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --map --first='startup_NUC1xx.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map 
+--info sizes --info totals 
+ --list ".\lst\Smpl_UART0_HC05.map" -o ".\obj\Smpl_UART0_HC05.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\Smpl_UART0_HC05.axf'
+### ADS-LD Command File: '.\obj\Smpl_UART0_HC05.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\Smpl_UART0_HC05.lnp', Handle=0x00000EAC
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\Smpl_UART0_HC05.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

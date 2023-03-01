@@ -1,0 +1,65 @@
+Dependencies for Project 'Smpl_UART0_HC05', Target 'Smpl_UART0_HC05': (DO NOT MODIFY !)
+F (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.c)(0x4F61EAF4)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\core_cm0.o --omf_browse .\obj\core_cm0.crf --depend .\obj\core_cm0.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.c)(0x4F61EAF4)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\system_nuc1xx.o --omf_browse .\obj\system_nuc1xx.crf --depend .\obj\system_nuc1xx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h)(0x510661D0)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\Include\System\SysInfra.h)(0x4F61EB2A)
+I (..\..\..\Include\System\ModuleID.h)(0x4F61EB2A)
+F (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\startup\arm\startup_NUC1xx.s)(0x522F379A)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --16 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\lst\startup_nuc1xx.lst --xref -o .\obj\startup_nuc1xx.o --depend .\obj\startup_nuc1xx.d)
+F (..\..\..\Src\NUC1xx-LB_002\LCD_Driver.c)(0x51B1E5FE)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\lcd_driver.o --omf_browse .\obj\lcd_driver.crf --depend .\obj\lcd_driver.d)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h)(0x510661D0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\Include\System\SysInfra.h)(0x4F61EB2A)
+I (..\..\..\Include\System\ModuleID.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvSYS.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvSPI.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvGPIO.h)(0x51FAB5B2)
+I (..\..\..\Include\NUC1xx-LB_002\LCD_Driver.h)(0x51B1E5F2)
+F (..\..\..\Src\NUC1xx-LB_002\Ascii_Table.C)(0x4F61EB44)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\ascii_table.o --omf_browse .\obj\ascii_table.crf --depend .\obj\ascii_table.d)
+F (.\Smpl_UART0_HC05.c)(0x63EEA459)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\smpl_uart0_hc05.o --omf_browse .\obj\smpl_uart0_hc05.crf --depend .\obj\smpl_uart0_hc05.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h)(0x510661D0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\Include\System\SysInfra.h)(0x4F61EB2A)
+I (..\..\..\Include\System\ModuleID.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvUART.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvGPIO.h)(0x51FAB5B2)
+I (..\..\..\Include\Driver\DrvSYS.h)(0x4F61EB2A)
+I (..\..\..\Include\NUC1xx-LB_002\LCD_Driver.h)(0x51B1E5F2)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+F (..\..\..\Src\Driver\DrvSYS.c)(0x4F61EB44)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\drvsys.o --omf_browse .\obj\drvsys.crf --depend .\obj\drvsys.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (..\..\..\Include\Driver\DrvSYS.h)(0x4F61EB2A)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h)(0x510661D0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\Include\System\SysInfra.h)(0x4F61EB2A)
+I (..\..\..\Include\System\ModuleID.h)(0x4F61EB2A)
+F (..\..\..\Src\Driver\DrvUART.c)(0x517E5D18)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\drvuart.o --omf_browse .\obj\drvuart.crf --depend .\obj\drvuart.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h)(0x510661D0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\Include\System\SysInfra.h)(0x4F61EB2A)
+I (..\..\..\Include\System\ModuleID.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvUART.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvSYS.h)(0x4F61EB2A)
+F (..\..\..\Src\Driver\DrvGPIO.c)(0x51FA54E6)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\ -I..\..\..\..\CMSIS\CM0\CoreSupport -I..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx -I..\..\..\Include -I..\..\..\Include\Driver -I..\..\..\Include\NUC1xx-LB_002-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\drvgpio.o --omf_browse .\obj\drvgpio.crf --depend .\obj\drvgpio.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\..\CMSIS\CM0\CoreSupport\core_cm0.h)(0x510661D0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (..\..\..\..\CMSIS\CM0\DeviceSupport\Nuvoton\NUC1xx\system_NUC1xx.h)(0x4F61EAF4)
+I (..\..\..\Include\System\SysInfra.h)(0x4F61EB2A)
+I (..\..\..\Include\System\ModuleID.h)(0x4F61EB2A)
+I (..\..\..\Include\Driver\DrvGPIO.h)(0x51FAB5B2)

@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\nuvoton\NUC140BSP\NuvotonPlatform_Keil\Sample\EduSampleCode\þþSmpl_UART0_HC05 - Copy - òåú÷\Smpl_UART0_HC05.uvproj
+Project File Date:  01/19/2023
+
+<h2>Output:</h2>
+Build target 'Smpl_UART0_HC05'
+creating preprocessor file for Smpl_UART0_HC05.c...
+compiling Smpl_UART0_HC05.c...
+Smpl_UART0_HC05.c(370): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                        DrvUART_Write(UART_PORT0,TEXT2,strlen(TEXT2));  // write to SRF04
+Smpl_UART0_HC05.c(375): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                        DrvUART_Write(UART_PORT0,TEXT2,strlen(TEXT2));  // write to SRF04
+Smpl_UART0_HC05.c(380): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                DrvUART_Write(UART_PORT0,TEXT2,strlen(TEXT2));  // write to SRF04
+Smpl_UART0_HC05.c(387): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                DrvUART_Write(UART_PORT0,TEXT2,strlen(TEXT2));  // write to SRF04
+Smpl_UART0_HC05.c(393): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                DrvUART_Write(UART_PORT0,TEXT2,strlen(TEXT2));  // write to SRF04
+Smpl_UART0_HC05.c(402): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+                                                DrvUART_Write(UART_PORT0,TEXT2,strlen(TEXT2));  // write to SRF04
+Smpl_UART0_HC05.c(441): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "PFN_DRVUART_CALLBACK *"
+        DrvUART_EnableInt(UART_PORT0, DRVUART_RDAINT, UART_INT_HANDLE);
+Smpl_UART0_HC05.c(419): warning:  #550-D: variable "h_hitime" was set but never used
+        uint16_t h_hitime, v_hitime;
+Smpl_UART0_HC05.c(419): warning:  #177-D: variable "v_hitime" was declared but never referenced
+        uint16_t h_hitime, v_hitime;
+Smpl_UART0_HC05.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=9916 RO-data=512 RW-data=176 ZI-data=1200  
+After Build - User command #1: fromelf --bin ".\obj\Smpl_UART0_HC05.axf" --output ".\obj\Smpl_UART0_HC05.bin"
+After Build - User command #2: fromelf --text -c ".\obj\Smpl_UART0_HC05.axf" --output ".\obj\Smpl_UART0_HC05.txt"
+".\obj\Smpl_UART0_HC05.axf" - 0 Error(s), 9 Warning(s).
+Load "C:\\nuvoton\\NUC140BSP\\NuvotonPlatform_Keil\\Sample\\EduSampleCode\\þþSmpl_UART0_HC05 - Copy - òåú÷\\obj\\Smpl_UART0_HC05.axf" 
+ng(s).
+Load "C:\\nuvoton\\NUC140BSP\\NuvotonPlatform_Keil\\Sample\\EduSampleCode\\þþSmpl_UART0_HC05 - Copy - òåú÷\\obj\\Smpl_UART0_HC05.axf" 
+/ initialize LCD panel
+Smpl_UART0_HC05.c(437): error:  #147: declaration is incompatible with "void Initial_panel(void)" (declared at line 5 of "..\..\..\Include\NUC1xx-LB_002\LCD_Driver.h")
+        Initial_panel();                 // initialize LCD panel
+Smpl_UART0_HC05.c(438): warning:  #1295-D: Deprecated declaration clr_all_panel - give arg types
+        clr_all_panel();                 // clear LCD panel                     
+Smpl_UART0_HC05.c(438): warning:  #77-D: this declaration has no storage class or type specifier
+        clr_all_panel();                 // clear LCD panel                     
+Smpl_UART0_HC05.c(438): error:  #147: declaration is incompatible with "void clr_all_panel(void)" (declared at line 12 of "..\..\..\Include\NUC1xx-LB_002\LCD_Driver.h")
+        clr_all_panel();                 // clear LCD panel                     
+Smpl_UART0_HC05.c(439): error:  #77-D: this declaration has no storage class or type specifier
+        h_hitime=HITIME_MIN;
+Smpl_UART0_HC05.c(440): error:  #169: expected a declaration
+        while(1)
+Smpl_UART0_HC05.c(446): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Smpl_UART0_HC05.c: 13 warnings, 7 errors
+".\obj\Smpl_UART0_HC05.axf" - 7 Error(s), 13 Warning(s).
+Target not created
