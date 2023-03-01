@@ -48,6 +48,8 @@ The servo motor is used to actuate the water pump, which is used to extinguish t
 
 ### Conclusion
 
+![video](https://github.com/RonBenDavid/Fire-Engine-Control-System-with-Remote-and-Computer-Vision-Nu-LB-NUC140/blob/main/IMAGES/gif.gif)
+
 The fire engine control system is a complex project that involves the integration of various hardware and software components. The system is designed to detect the location of a fire using OpenCV and a Go Pro camera and extinguish it using a water pump actuated by a servo motor. The fire engine is operated using a Sony PlayStation 4 remote, and the communication between the components is achieved using Nu-LB-NUC140 and HC-05 with UART communication.
 
 The implementation of this project required significant knowledge and expertise in areas such as hardware and software programming, image processing, and control systems. The use of OpenCV allowed for accurate fire detection, while the Sony PlayStation 4 remote provided a user-friendly interface for controlling the fire engine. The integration of the different components was achieved through careful planning and programming to ensure the system worked seamlessly.
