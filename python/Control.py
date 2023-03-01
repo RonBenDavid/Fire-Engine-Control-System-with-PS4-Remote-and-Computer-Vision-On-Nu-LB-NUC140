@@ -4,7 +4,7 @@ import json, os
 import bluetooth
 
 # Bluetooth device address
-bd_addr = "fc:a8:9a:00:92:43"
+bd_addr = "fc:a8:9a:00:92:43" # PS4 MAC ADDRESS
 
 # Port number to use for connection
 port = 1
