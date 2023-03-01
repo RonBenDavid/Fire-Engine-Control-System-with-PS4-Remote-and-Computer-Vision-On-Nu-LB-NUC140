@@ -36,6 +36,8 @@ The OpenCV component is used to detect the location of the fire in the video fra
 
 #### Sony PlayStation 4 Remote Control
 
+![video](https://github.com/RonBenDavid/Fire-Engine-Control-System-with-Remote-and-Computer-Vision-Nu-LB-NUC140/blob/main/IMAGES/gif2.gif)
+
 The Sony PlayStation 4 remote is used to operate the fire engine by sending wireless commands to the Nu-LB-NUC140 using the HC-05 Bluetooth module. The Pygame library is used to initialize a window and allow the user to control the device using the remote. The program sets up a Bluetooth connection with the device and reads button and analog values from the controller. The program then sends data to the device over Bluetooth based on the current values of the variables.
 
 #### L298N Motor Driver Control
