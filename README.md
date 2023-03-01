@@ -32,7 +32,7 @@ The implementation of this project involved the development of various component
 
 #### OpenCV Fire Detection
 
-![video](https://github.com/RonBenDavid/Fire-Engine-Control-System-with-Remote-and-Computer-Vision-Nu-LB-NUC140/blob/main/IMAGES/gif3.gif)
+![video](https://github.com/RonBenDavid/Fire-Engine-Control-System-with-Remote-and-Computer-Vision-Nu-LB-NUC140/blob/main/IMAGES/gif4.gif)
 
 The OpenCV component is used to detect the location of the fire in the video frames captured by the Go Pro camera. This is achieved by converting the video frames to the HSV color space and applying a red color range mask to isolate the red objects in the frame. The mask is then used to find the contours of the red objects, which are filtered to remove small contours. A bounding box is then drawn around the remaining contours, and the position data is printed to the console and written to a file named "stepper.txt". The position data is used by the servo motor to move the water pump towards the fire source for extinguishing.
 
